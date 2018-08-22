@@ -21,7 +21,7 @@ Implemented various RL algorithms by PyTorch. Test and compare them on both open
 - OpenAI Gym (Classic control)
 - pybullet
 
-## My task
+## Designed task
 
 It is basically a balance task for a 2-wheels robot. However, the robot needs not only to keep balance but also to come down a slope and climb a slope. The simulation is powered by pybullet. You can watch the full video here.
 
