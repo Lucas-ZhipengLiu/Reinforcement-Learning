@@ -1,5 +1,5 @@
 # Reinforcement-Learning
-Implemented various RL algorithms. Test and compare them on both openai gym task and my designed task.
+Implemented various RL algorithms by PyTorch. Test and compare them on both openai gym task and my designed task.
 
 ## Implemented algorithms
 
@@ -17,13 +17,13 @@ Implemented various RL algorithms. Test and compare them on both openai gym task
 
 - Ubuntu 14.04, 16.04
 - Python 3.6, 3.5
-- Pytorch v0.4.1
+- PyTorch v0.4.1
 - OpenAI Gym (Classic control)
 - pybullet
 
 ## My task
 
-It is basically a balance task for a 2-wheels robot. However, the robot not only need to keep balance, but also need to come down slope and climb slope. The simulation is based on pybullet. You can watch the full video here.
+It is basically a balance task for a 2-wheels robot. However, the robot needs not only to keep balance but also to come down a slope and climb a slope. The simulation is based on pybullet. You can watch the full video here.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/9.gif)
 
