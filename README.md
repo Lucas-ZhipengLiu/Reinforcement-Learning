@@ -21,7 +21,16 @@ Implemented various RL algorithms. Test and compare them on both openai gym task
 - OpenAI Gym (Classic control)
 - pybullet
 
+# My designed task
 
-# Achievements
+It is basically a balance task for a 2-wheels robot. However, the robot not only need to keep balance, but also need to come down slope and climb slope. 
+
+
+
+# Results
 
 Test and compare DQN, Prioritized DQN and Categorical DQN on OpenAI Gym CartPole-v1 task. 
+
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/6.png)
+
+
