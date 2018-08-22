@@ -23,7 +23,7 @@ Implemented various RL algorithms. Test and compare them on both openai gym task
 
 ## My task
 
-It is basically a balance task for a 2-wheels robot. However, the robot not only need to keep balance, but also need to come down slope and climb slope. You can watch the video here.
+It is basically a balance task for a 2-wheels robot. However, the robot not only need to keep balance, but also need to come down slope and climb slope. The simulation is based on pybullet. You can watch the video here.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/9.gif)
 
