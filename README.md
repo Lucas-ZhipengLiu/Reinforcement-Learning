@@ -35,6 +35,6 @@ Test and compare DQN, Prioritized DQN and Categorical DQN on OpenAI Gym CartPole
 
 Test and compare DQN, DDPG, Prioritized DDPG on designed task.
 
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/tree/master/result%20images/4.png)
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/4.png)
 
 ## References
