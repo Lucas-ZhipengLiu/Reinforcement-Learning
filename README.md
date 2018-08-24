@@ -31,10 +31,10 @@ It is basically a balance task for a 2-wheels robot. However, the robot needs no
 
 Test and compare DQN, Prioritized DQN and Categorical DQN on OpenAI Gym CartPole-v1 task. 
 
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/3.png)
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/5.png)
 
 Test and compare DQN, DDPG, Prioritized DDPG on designed task.
 
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/4.png)
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/6.png)
 
 ## References
