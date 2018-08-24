@@ -87,7 +87,7 @@ class Env():
         self.angle2 = np.deg2rad(10)
         self.length2 = 2
         self.radius = 15
-        self.plane_urdf = '/home/lucas/modules/summer_project/bullet3-master/pybullet/gym/pybullet_data/plane.urdf'
+        self.plane_urdf = '/home/lucas/modules/summer_project/bullet3-master/pybullet/gym/pybullet_data/plane.urdf' 
         
         
     def reset(self):
