@@ -38,3 +38,14 @@ Test and compare DQN, DDPG, Prioritized DDPG on designed task.
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/4.png)
 
 ## References
+
+- [Playing Atari with Deep Reinforcement Learning](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/DQN.pdf)
+- [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Policy Gradient.pdf)
+- [Deterministic Policy Gradient Algorithms](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/DPG.pdf)
+- [CONTINUOUS CONTROL WITH DEEP REINFORCEMENTLEARNING](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/DDPG.pdf)
+- [DISTRIBUTED PRIORITIZED EXPERIENCE REPLAY](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/D3PG.pdf)
+- [DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/D4PG.pdf)
+- [PyBullet Quickstart Guide](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/pybullet quickstart guide.pdf)
+- [DeepMind Control Suite](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/deepmind.pdf)
+- [Deep Reinforcement Learning Hands-On](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/deep-reinforcement-learning-hands.pdf)
+- [Morvan tutorials](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/)
