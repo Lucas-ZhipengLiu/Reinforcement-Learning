@@ -1,5 +1,5 @@
 # Reinforcement-Learning
-**Implemented various RL algorithms by PyTorch. Test and compare them on both openai gym task and my designed task.**
+**Implemented various RL algorithms by PyTorch. Test and compare them on both openai gym task and PyBullet task.**
 
 ## Implemented algorithms
 
@@ -21,7 +21,7 @@
 - OpenAI Gym (Classic control)
 - PyBullet 2.1
 
-## Designed task
+## PyBullet task
 
 It is basically a balance task for a 2-wheels robot. However, the robot needs not only to keep balance but also to come down a slope and climb another slope. The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
 
@@ -33,7 +33,7 @@ Test and compare **DQN**, **Prioritized DQN** and **Categorical DQN** on OpenAI 
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/3.png)
 
-Test and compare **DQN**, **DDPG**, **Prioritized DDPG** on designed task.
+Test and compare **DQN**, **DDPG**, **Prioritized DDPG** on PyBullet task.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/4.png)
 
