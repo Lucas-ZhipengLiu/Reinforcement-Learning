@@ -1,5 +1,8 @@
 # Reinforcement-Learning
-**Implemented various RL algorithms by PyTorch. Test and compare them on both openai gym task and PyBullet task.**
+**This project implements various reinforcement learning algorithms,
+including state-of-art approaches DDPG and D4PG (incomplete), and use them
+to solve a challenging balancing task. Moreover, a systematic comparison
+among implemented algorithms is given.**
 
 ## Implemented algorithms
 
