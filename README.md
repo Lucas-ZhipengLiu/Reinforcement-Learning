@@ -28,7 +28,7 @@ deterministic policy gradient (D4PG) algorithm, an extended version of DDPG,
 was proposed in 2018. It adopts several very successful improvements (e.g.
 distributional perspective) and works within a distributed framework. Below is a flowchart of thoes algorithms.**
 
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29.PNG)
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29a.PNG)
 
 ## Balancing task
 
@@ -36,7 +36,7 @@ It is basically a balance task for a 2-wheel robot. The robot needs to go down
 a slope, climb another slope and keep the red body balanced. It is a torque
 control robot with two actuated joints on two wheels.  The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
 
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/22.png)
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/22a.png)
 
 ## Results
 
