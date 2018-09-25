@@ -32,7 +32,7 @@ distributional perspective) and works within a distributed framework. Below is a
 
 ## Balancing task
 
-It is basically a balance task for a 2-wheel robot. The robot needs to go down
+It is a balance task for a 2-wheel robot. The robot needs to go down
 a slope, climb another slope and keep the red body balanced. It is a torque
 control robot with two actuated joints on two wheels.  The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
 
