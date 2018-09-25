@@ -9,10 +9,10 @@ among implemented algorithms is given. MSc dissertation is available [here](http
 - Q Learning
 - Policy Gradient
 - Actor-critic
-- Naive DQN (Deep Q-network)
+- DQN (Deep Q-network)
 - Prioritized DQN (DQN + Prioritized experience replay)
 - Categorical DQN (DQN + Distributional perspective)
-- Naive DDPG (Deep Deterministic Policy Gradient)
+- DDPG (Deep Deterministic Policy Gradient)
 - Incomplete D4PG (DDPG + Prioritized experience replay)
 
 **The first deep reinforcement learning algorithm, deep Q-network (DQN), was
