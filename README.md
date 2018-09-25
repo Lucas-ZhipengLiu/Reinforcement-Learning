@@ -30,7 +30,7 @@ distributional perspective) and works within a distributed framework. Below is a
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29a.PNG)
 
-## The Balancing task
+## The Balancing task (Designed task)
 
 It is a balance task for a 2-wheel robot. The robot needs to go down
 a slope, climb another slope and keep the body balanced. It is a torque
