@@ -33,7 +33,7 @@ distributional perspective) and works within a distributed framework. Below is a
 ## Balancing task
 
 It is a balance task for a 2-wheel robot. The robot needs to go down
-a slope, climb another slope and keep the red body balanced. It is a torque
+a slope, climb another slope and keep the body balanced. It is a torque
 control robot with two actuated joints on two wheels.  The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/22a.png)
@@ -48,7 +48,11 @@ Test and compare **DQN**, **DDPG**, **Incomplete D4PG** on the balancing task.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/23.png)
 
-## Dependency
+## Usage and Dependencies
+
+Each python file implements one reinforcement learning algorithm on either
+Balancing task (i.e. the designed task) or CartPole task. There are 10 python
+files totally including 8 RL algorithms. All implementations are from scratch.
 
 - Ubuntu 14.04, 16.04
 - Python 3.6, 3.5
