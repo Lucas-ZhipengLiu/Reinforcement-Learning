@@ -1,7 +1,7 @@
-# Reinforcement-Learning
+# Reinforcement-Learning in robot's locomotion control
 **This project implements various reinforcement learning algorithms,
 including state-of-art approaches DDPG and D4PG (incomplete), and use them
-to solve a challenging balancing task. Moreover, a systematic comparison
+to solve a challenging balance task. Moreover, a systematic comparison
 among implemented algorithms is given. MSc dissertation is available [here](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Liu-1772961.pdf).**
 
 ## Discription of implemented algorithms
@@ -30,7 +30,7 @@ distributional perspective) and works within a distributed framework. Below is a
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29a.PNG)
 
-## Balancing task
+## The Balancing task
 
 It is a balance task for a 2-wheel robot. The robot needs to go down
 a slope, climb another slope and keep the body balanced. It is a torque
