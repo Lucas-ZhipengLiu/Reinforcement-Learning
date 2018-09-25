@@ -15,7 +15,7 @@ among implemented algorithms is given. MSc dissertation is available [here](http
 - DDPG (Deep Deterministic Policy Gradient)
 - Incomplete D4PG (DDPG + Prioritized experience replay)
 
-**The first deep reinforcement learning algorithm, deep Q-network (DQN), was
+The first deep reinforcement learning algorithm, deep Q-network (DQN), was
 proposed by DeepMind in 2015. It is based on a basic reinforcement learning
 algorithm Q learning. Since then, reinforcement learning can be empowered by
 deep neural network directly. One of the most significant achievements is that
@@ -26,7 +26,7 @@ deterministic policy gradient (DDPG) algorithm which is presented in 2017. It
 relies on actor-critic architecture. Furthermore, distributional distributed deep
 deterministic policy gradient (D4PG) algorithm, an extended version of DDPG,
 was proposed in 2018. It adopts several very successful improvements (e.g.
-distributional perspective) and works within a distributed framework. Below is a flowchart of thoes algorithms.**
+distributional perspective) and works within a distributed framework. Below is a flowchart of thoes algorithms.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29a.PNG)
 
