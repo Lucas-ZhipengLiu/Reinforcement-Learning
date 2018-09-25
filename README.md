@@ -2,7 +2,7 @@
 **This project implements various reinforcement learning algorithms,
 including state-of-art approaches DDPG and D4PG (incomplete), and use them
 to solve a challenging balancing task. Moreover, a systematic comparison
-among implemented algorithms is given. My MSc dissertation is [here](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Liu-1772961.pdf).**
+among implemented algorithms is given. MSc dissertation is available [here](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Liu-1772961.pdf).**
 
 ## Discription of implemented algorithms
 
@@ -13,7 +13,7 @@ among implemented algorithms is given. My MSc dissertation is [here](https://git
 - Prioritized DQN (DQN + Prioritized experience replay)
 - Categorical DQN (DQN + Distributional perspective)
 - Naive DDPG (Deep Deterministic Policy Gradient)
-- Prioritized DDPG (DDPG + Prioritized experience replay)
+- Incomplete D4PG (DDPG + Prioritized experience replay)
 
 **The first deep reinforcement learning algorithm, deep Q-network (DQN), was
 proposed by DeepMind in 2015. It is based on a basic reinforcement learning
@@ -30,6 +30,24 @@ distributional perspective) and works within a distributed framework. Below is a
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29.PNG)
 
+## Balancing task
+
+It is basically a balance task for a 2-wheel robot. The robot needs to go down
+a slope, climb another slope and keep the red body balanced. It is a torque
+control robot with two actuated joints on two wheels.  The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
+
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/22.png)
+
+## Results
+
+Test and compare **DQN**, **Prioritized DQN** and **Categorical DQN** on OpenAI Gym CartPole-v1 task. 
+
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/14.png)
+
+Test and compare **DQN**, **DDPG**, **Incomplete D4PG** on the balancing task.
+
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/23.png)
+
 ## Dependency
 
 - Ubuntu 14.04, 16.04
@@ -38,23 +56,7 @@ distributional perspective) and works within a distributed framework. Below is a
 - OpenAI Gym (Classic control)
 - PyBullet 2.1
 
-## PyBullet task
-
-It is basically a balance task for a 2-wheels robot. However, the robot needs not only to keep balance but also to come down a slope and climb another slope. The simulation is powered by pybullet. You can watch the full video [here](https://youtu.be/oOzKpN154ng).
-
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/readme-edits/result%20images/9.gif)
-
-## Results
-
-Test and compare **DQN**, **Prioritized DQN** and **Categorical DQN** on OpenAI Gym CartPole-v1 task. 
-
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/3.png)
-
-Test and compare **DQN**, **DDPG**, **Prioritized DDPG** on PyBullet task.
-
-![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/4.png)
-
-## References
+## Main References
 
 - [Playing Atari with Deep Reinforcement Learning](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/DQN.pdf)
 - [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Policy%20Gradient.pdf)
