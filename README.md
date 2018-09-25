@@ -2,9 +2,9 @@
 **This project implements various reinforcement learning algorithms,
 including state-of-art approaches DDPG and D4PG (incomplete), and use them
 to solve a challenging balancing task. Moreover, a systematic comparison
-among implemented algorithms is given.**
+among implemented algorithms is given. My MSc dissertation is [here](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/references/Liu-1772961.pdf).**
 
-## Implemented algorithms
+## Discription of implemented algorithms
 
 - Q Learning
 - Policy Gradient
@@ -15,6 +15,20 @@ among implemented algorithms is given.**
 - Naive DDPG (Deep Deterministic Policy Gradient)
 - Prioritized DDPG (DDPG + Prioritized experience replay)
 
+**The first deep reinforcement learning algorithm, deep Q-network (DQN), was
+proposed by DeepMind in 2015. It is based on a basic reinforcement learning
+algorithm Q learning. Since then, reinforcement learning can be empowered by
+deep neural network directly. One of the most significant achievements is that
+reinforcement learning is capable of dealing with high-dimensional states like
+raw image pixels. After that, the ideas underlying the success of deep Qnetwork
+was adapted to the continuous action space, then we have the deep
+deterministic policy gradient (DDPG) algorithm which is presented in 2017. It
+relies on actor-critic architecture. Furthermore, distributional distributed deep
+deterministic policy gradient (D4PG) algorithm, an extended version of DDPG,
+was proposed in 2018. It adopts several very successful improvements (e.g.
+distributional perspective) and works within a distributed framework. Below is a flowchart of thoes algorithms.**
+
+![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29.PNG)
 
 ## Dependency
 
