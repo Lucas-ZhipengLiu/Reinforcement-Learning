@@ -20,13 +20,13 @@ proposed by DeepMind in 2015. It is based on a basic reinforcement learning
 algorithm Q learning. Since then, reinforcement learning can be empowered by
 deep neural network directly. One of the most significant achievements is that
 reinforcement learning is capable of dealing with high-dimensional states like
-raw image pixels. After that, the ideas underlying the success of deep Qnetwork
+raw image pixels. After that, the ideas underlying the success of deep Q-network
 was adapted to the continuous action space, then we have the deep
 deterministic policy gradient (DDPG) algorithm which is presented in 2017. It
 relies on actor-critic architecture. Furthermore, distributional distributed deep
 deterministic policy gradient (D4PG) algorithm, an extended version of DDPG,
 was proposed in 2018. It adopts several very successful improvements (e.g.
-distributional perspective) and works within a distributed framework. Below is a flowchart of thoes algorithms.
+distributional perspective) and works within a distributed framework. Below is a flowchart showing the relationship of thoes algorithms.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/29a.PNG)
 
@@ -47,6 +47,10 @@ Test and compare **DQN**, **Prioritized DQN** and **Categorical DQN** on OpenAI 
 Test and compare **DQN**, **DDPG**, **Incomplete D4PG** on the balancing task.
 
 ![alt text](https://github.com/Lucas-ZhipengLiu/Reinforcement-Learning/blob/master/result%20images/23.png)
+
+## Conclusion
+
+This project implements state-of-the-art deep reinforcement algorithms DDPG and D4PG (incomplete) from scratch (i.e. implementation starts from basic RL algorithm e.g. Q learning). Solve the challenging balance task with a novel approach (i.e. deep Reinforcement Learning) instead of conventional control theory like PID control. Moreover, we compare five different deep reinforcement learning algorithms and proves that D4PG is the best one among them.
 
 ## Usage and Dependencies
 
